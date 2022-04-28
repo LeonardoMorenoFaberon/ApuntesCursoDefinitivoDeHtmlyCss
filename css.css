@@ -1,3 +1,7 @@
+*{
+    padding:none;
+    margin:none;
+}
 .nivel1{
     padding-left: 10px;
 }
@@ -7,3 +11,10 @@
 .nivel3{
     padding-left: 30px;
 }
+
+/* este separar en cuadrado */
+.cuadro{
+    margin:20px;
+    border:1px solid red;
+}
+

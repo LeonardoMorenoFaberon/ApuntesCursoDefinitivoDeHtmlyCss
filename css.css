@@ -2,6 +2,9 @@
     padding:none;
     margin:none;
 }
+body{
+    background-color: burlywood;
+}
 .nivel1{
     padding-left: 10px;
 }
@@ -16,5 +19,10 @@
 .cuadro{
     margin:20px;
     border:1px solid red;
+}
+
+h3{
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 

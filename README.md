@@ -1,2 +1,5 @@
 # ApuntesCursoDefinitivoDeHtmlyCss
-son apuntes de un curso de html y css
+Son apuntes de un curso Defifinitivo de html y css.
+
+
+

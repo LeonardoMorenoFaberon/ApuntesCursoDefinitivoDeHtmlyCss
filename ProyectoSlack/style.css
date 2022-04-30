@@ -1,0 +1,54 @@
+:root{
+    --alto_logo:60px;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6ECEA;
+}
+
+header{
+    /* display: flex; */
+    /* position: relative; */
+}
+
+.main-logo{
+    height: var(--alto_logo);
+    border:1px solid red;
+    display: inline;
+  }
+.main-nav{
+    display: inline-block;
+    border: 1px solid green;
+    width: fit-content;
+    position: relative;
+    height: var(--alto_logo);
+    top: -43px;
+    
+}  
+ul{
+    border:1px solid red;
+    width: fit-content;    
+    position: relative;
+    top: calc(100% - var(--alto_logo));
+}
+.main-nav__item{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+
+
+

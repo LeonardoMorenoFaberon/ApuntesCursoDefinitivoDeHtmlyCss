@@ -11,33 +11,51 @@
 <body>
     <main>
         <h1>Calendario Segunda Clase:</h1>
-        <form action="#">
-            <h3 class="abreviaturaEmet">Abreviatura Emmet</h3>
-            <div>
-                <span>label*4[for="algo"]>span{textoSpaneado}input[type=text]</span>
-            </div>
+        <form action="">
+            <label for="nombre">
+              <span>¿Cual es tu nombre?</span>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                autocomplete="name"
+                required
+              />
+            </label>
+            <label for="correo">
+              <span>¿Cual es tu email?</span>
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                autocomplete="email"
+                required
+              />
+            </label>
+            <label for="pais">
+              <span>¿Cual es tu pais?</span>
+              <input
+                type="text"
+                name="pais"
+                id="pais"
+                autocomplete="country"
+                required
+              />
+            </label>
+            <label for="cp">
+              <span>¿Cual es tu codigo postal?</span>
+              <input
+                type="text"
+                name="cp"
+                id="cp"
+                autocomplete="postal-code"
+                required
+              />
+            </label>
+            <input type="submit" />
+          </form>
 
-            <label for="algo">
-                <span>textoSpaneado</span>
-                <input type="text">
-            </label>
-            <label for="algo">
-                <span>textoSpaneado</span>
-                <input type="text">
-            </label>
-            <label for="algo">
-                <span>textoSpaneado</span>
-                <input type="text">
-            </label>
-            <label for="algo">
-                <span>textoSpaneado</span>
-                <input type="text">
-            </label>
-            <label for="algo">
-                <span>textoSpaneado</span>
-                <input type="text">
-            </label>
-        </form>
+          <div class="cuadro"> en la etiqueta <strong>input</strong>  el atributo required=true  o simplemente required hace obligatorio el llenado de ese input </div>
     </main>
 
     

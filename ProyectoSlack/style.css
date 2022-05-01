@@ -6,16 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #F6ECEA;
 }
-
 header{
    display: flex;
     border:1px solid red;
 }
-
 .main-logo{
     height: 60px;
 }
@@ -41,7 +38,6 @@ a{
     color: black;
     padding: 5px;
     border-radius: 2px;
-
 }
 
 

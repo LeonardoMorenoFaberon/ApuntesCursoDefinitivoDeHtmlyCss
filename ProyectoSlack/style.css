@@ -6,35 +6,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #F6ECEA;
 }
-
 header{
-    /* display: flex; */
-    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid blue;
 }
-
 .main-logo{
     height: var(--alto_logo);
     border:1px solid red;
     display: inline;
   }
 .main-nav{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
     border: 1px solid green;
-    width: fit-content;
-    position: relative;
     height: var(--alto_logo);
-    top: -43px;
-    
 }  
 ul{
+    
     border:1px solid red;
     width: fit-content;    
+    /* position: relative; */
+
+}
+.OpcDerecha{
+    border: 1px solid red;
     position: relative;
-    top: calc(100% - var(--alto_logo));
+    width: fit-content;
 }
 .main-nav__item{
     display: inline-block;
@@ -46,7 +50,6 @@ a{text-decoration: none;
     color: black;
     padding: 5px;
     border-radius: 2px;
-
 }
 
 
